@@ -48,7 +48,6 @@ const Index = () => (
         text-align: center;
       }
       .profilePic {
-        transform: scale(1.5);
       }
       .img-wrapper{
         display: inline-block;
@@ -56,21 +55,48 @@ const Index = () => (
         border-radius: 50%;
         border: 7.5px solid white;
       }
+      .outterContainer{
+        display:flex;
+        flex-direction: column;
+        font-family: 'Special Elite','Press Start 2P','Cabin sketch';
+        font-size: 20px;
+        text-align: center;
+      }
+      .item{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding:10px;
+      
+      }
+      .bioContainer{
+        
+        padding: 5px 35px;
+        margin: 5px 50px;
+      }
 
     `
     }
       
     </style>
-    <div className="flex-container">
-      <div className="row">
-          <div className="img-wrapper">
-            <img className="profilePic" width="200"
-            src="https://instagram.fhex1-1.fna.fbcdn.net/vp/1350b4424560805a92e2da714fb6552f/5BED4315/t51.2885-15/e35/19436792_1562299597147742_2782724382118641664_n.jpg?_nc_eui2=AeEI93ZsMlQsJzK10XBlEndENbfx3Djrq2YGRwS1z5c0_CSnduPih6J1tGUxDiHJkxnmJsCdhYy7WdC21FKwU-iISHcKbA0f4G6w16T9V9cCxA" />
+    <div className="outterContainer">
+      <div className="imgContainer">
+        <div className="item" >
+          <div className="img-wrapper" >
+          <img className="profilePic" width="250"
+            src="https://instagram.fsdq1-2.fna.fbcdn.net/vp/8e27bbf7247e47aaae69e4145bc55b15/5BE7D801/t51.2885-15/e15/11374549_908588665865963_517032158_n.jpg" />
           </div>
-        <p className="flex-item">Software developer based in the Dominican Republic 🇩🇴, 
+        
+        </div>
+      </div>
+      <div className="bioContainer">
+        <p className="item">Software developer based in the Dominican Republic 🇩🇴, 
                                 primarily working on Web development 👨‍💻 using JavaScript and React. Basketball fan 🏀.</p>
       </div>
     </div>
+
+
+
 
   </React.Fragment>
   )
