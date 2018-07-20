@@ -5,11 +5,12 @@ import Head from 'next/head';
 const Index = () => (
   <React.Fragment>
     <Head>
+    <meta name="theme-color" content="#000" />
       <title>Lui.do - Software developer</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-              <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Special+Elite|Cabin+Sketch" rel="stylesheet"/> 
-              <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-              <link rel="shortcut icon" type="image/png" href="https://avatars1.githubusercontent.com/u/26881706?s=460&v=4"/>
+      <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Special+Elite|Cabin+Sketch" rel="stylesheet"/> 
+      <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+      <link rel="shortcut icon" type="image/png" href="https://avatars1.githubusercontent.com/u/26881706?s=460&v=4"/>
     </Head>
     
     <style jsx global>{`
@@ -66,6 +67,7 @@ const Index = () => (
       }
       .icons {        
         font-size: 40px;
+        color: white;
         padding: 15px;
       }
 
@@ -75,19 +77,25 @@ const Index = () => (
       <div className="imgContainer">
         <div className="item" >
           <div className="img-wrapper" >
-            <img className="profilePic" width="130"
+            <img className="profilePic" width="90"
               src="https://instagram.fsdq1-2.fna.fbcdn.net/vp/8e27bbf7247e47aaae69e4145bc55b15/5BE7D801/t51.2885-15/e15/11374549_908588665865963_517032158_n.jpg" />
           </div>
         
         </div>
       </div>
       <div className="bioContainer">
-        <p className="item">Software developer based in the Dominican Republic 🇩🇴, 
-                                primarily working on Web development 👨‍💻 using JavaScript and React. Basketball fan 🏀.</p>
+        <p className="item">Welcome! my name is Luis and I am a handcrated software artisan (fancy for I write code), based in the Dominican Republic 🇩🇴, 
+                            primarily working with full stack web development 👨‍💻. Sports fan, specially Basketball 🏀.</p>
         <div className="socialLinks">
-          <div className="icons"><i class="fa fa-linkedin-square"></i></div>
-          <div className="icons"><i class="fa fa-twitter-square"></i></div>
-          <div className="icons"><i class="fa fa-github-square"></i></div>
+          <a href="https://www.linkedin.com/in/luisanz/" title="LinkedIn" target="_blank" className="icons">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          <a href="https://twitter.com/luisanz_" title="Twitter" target="_blank" className="icons">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+          <a href="https://github.com/LuiSanz" title="Github" target="_blank" className="icons">
+            <i class="fa fa-github-square"></i>
+          </a>
         </div>
       </div>
     </div>
