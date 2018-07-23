@@ -10,9 +10,11 @@ const Profile = () => (
             .outterContainer {
               display:flex;
               flex-direction: column;
+              justify-content: center;
               font-family: 'Special Elite','Press Start 2P','Cabin sketch';
               font-size: 20px;
               text-align: center;
+              height: 100vh;
             }
         `}
         </style>
@@ -22,12 +24,7 @@ const Profile = () => (
             background: #000;
             color: #fff;
           }
-          html, body {
-            height: 100%;
-          }
-          body {
-            margin: 0;
-          }`}
+          `}
         </style>
     </React.Fragment>
 );

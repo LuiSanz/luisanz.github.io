@@ -13,17 +13,18 @@ const Pic = () => (
         display: inline-block;
         overflow: hidden;
         border-radius: 50%;
-        border: 7.5px solid white;
+        border: 4.5px solid white;
       }
       .item {
         color: white;
         font-size: 20px;
         text-align: center;
-        padding: 0 10px;
       
       }
       .imgContainer {
-        margin-top: 3em;
+      }
+      .profilePic{
+        transform: scale(1.08)
       }
     `}
     </style>

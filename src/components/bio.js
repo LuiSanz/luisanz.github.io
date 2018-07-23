@@ -1,8 +1,8 @@
 const Bio = () => (
 <React.Fragment>
   <div className="bioContainer">
-        <p className="item">Welcome! my name is Luis and I am a handcrated software artisan (fancy for I write code), based in the Dominican Republic 🇩🇴, 
-                            primarily working with full stack web development 👨‍💻. Sports fan, specially Basketball 🏀.</p>
+        <p className="item">Welcome! My name is Luis and I am a handcrated software artisan (fancy for I write code), based in the Dominican Republic 🇩🇴. 
+                            Full stack web developer 👨‍💻, primarily using JS in it's different flavors. Sports fan🏀.</p>
         <div className="socialLinks">
           <a href="https://www.linkedin.com/in/luisanz/" title="LinkedIn" target="_blank" className="icons">
             <i className="fa fa-linkedin-square"></i>
@@ -20,12 +20,10 @@ const Bio = () => (
         color: white;
         font-size: 20px;
         text-align: center;
-        padding: 0 10px;
       
       }
       .bioContainer {
         padding: 0 235px;
-        margin: 0 50px;
       }
       .socialLinks{
         display: flex;
