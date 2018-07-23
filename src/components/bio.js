@@ -3,7 +3,7 @@ const Bio = () => (
   <div className="bioContainer">
         <h1 className="item name">Luis Sánchez</h1>
         <p className="item details">JavaScript | React | Node</p>
-        <p className="item">Full stack web developer, based in the Dominican Republic,  primarily using JS in it's different flavors. Sports fan.</p>
+        <p className="item">Full stack web developer, based in the Dominican Republic,  primarily using JavaScript in different flavors. Sports fan.</p>
         <p className="item">More about me</p> 
         <div className="socialLinks">
           <a href="https://www.linkedin.com/in/luisanz/" title="LinkedIn" target="_blank" className="icons">
@@ -26,7 +26,6 @@ const Bio = () => (
         font-size: 17px;
         text-align: center;
         margin: 10px;
-        flex: 1 1 auto;
       }
       .details{
 
@@ -42,7 +41,7 @@ const Bio = () => (
         justify-content: center;
         align-content:center;
         flex-direction: column;
-        margin: 0 320px;
+        width:100%
 
       }
       .socialLinks{

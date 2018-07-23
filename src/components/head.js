@@ -2,6 +2,7 @@ import Head from 'next/head';
 const HeadP = () => (
     <Head>
       <meta name="theme-color" content="#000" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Lui.do - Software developer</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
       <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Special+Elite|Cabin+Sketch|Signika+Negative:400,700" rel="stylesheet"/> 

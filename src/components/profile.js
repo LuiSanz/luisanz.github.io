@@ -14,13 +14,9 @@ const Profile = () => (
               align-items: center;
               align-content: center;
               font-family: 'Special Elite','Press Start 2P','Cabin sketch';
-              height: 100vh;
+              height: 70vh;
               width: auto;
-              margin: auto;
               font-size: 12px;
-            }
-            .wrapper > * {
-                flex: 1 1 auto;
             }
         `}
         </style>
