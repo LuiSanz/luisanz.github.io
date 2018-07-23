@@ -2,19 +2,25 @@ import Bio from "./bio";
 import Pic from "./pic";
 const Profile = () => (
     <React.Fragment>
-        <div className="outterContainer">
+        <div className="wrapper">
             <Pic />
             <Bio />
         </div>
         <style jsx>{`
-            .outterContainer {
+            .wrapper {
               display:flex;
               flex-direction: column;
               justify-content: center;
+              align-items: center;
+              align-content: center;
               font-family: 'Special Elite','Press Start 2P','Cabin sketch';
-              font-size: 20px;
-              text-align: center;
               height: 100vh;
+              width: auto;
+              margin: auto;
+              font-size: 12px;
+            }
+            .wrapper > * {
+                flex: 1 1 auto;
             }
         `}
         </style>

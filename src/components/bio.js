@@ -1,8 +1,10 @@
 const Bio = () => (
 <React.Fragment>
   <div className="bioContainer">
-        <p className="item">Welcome! My name is Luis and I am a handcrated software artisan (fancy for I write code), based in the Dominican Republic 🇩🇴. 
-                            Full stack web developer 👨‍💻, primarily using JS in it's different flavors. Sports fan🏀.</p>
+        <h1 className="item name">Luis Sánchez</h1>
+        <p className="item details">JavaScript | React | Node</p>
+        <p className="item">Full stack web developer, based in the Dominican Republic,  primarily using JS in it's different flavors. Sports fan.</p>
+        <p className="item">More about me</p> 
         <div className="socialLinks">
           <a href="https://www.linkedin.com/in/luisanz/" title="LinkedIn" target="_blank" className="icons">
             <i className="fa fa-linkedin-square"></i>
@@ -13,21 +15,40 @@ const Bio = () => (
           <a href="https://github.com/LuiSanz" title="Github" target="_blank" className="icons">
             <i className="fa fa-github-square"></i>
           </a>
+          <a href="mailto:sanz.luis0@gmail.com" title="E-mail me" target="_blank" className="icons">
+            <i className="fa fa-envelope-square"></i>
+          </a>
         </div>
 </div> 
     <style jsx>{`
       .item {
         color: white;
-        font-size: 20px;
+        font-size: 17px;
         text-align: center;
-      
+        margin: 10px;
+        flex: 1 1 auto;
+      }
+      .details{
+
+        font-family: 'Signika Negative', serif;
+        font-weight: normal;
+      }
+      .name{
+        font-family: 'Signika Negative', serif;
+        font-weight: bold;
       }
       .bioContainer {
-        padding: 0 235px;
+        display: flex;
+        justify-content: center;
+        align-content:center;
+        flex-direction: column;
+        margin: 0 320px;
+
       }
       .socialLinks{
         display: flex;
         justify-content: center;
+        align-content:center;
         text-align: center;
       }
       .icons {        
@@ -35,7 +56,6 @@ const Bio = () => (
         color: white;
         padding: 15px;
       }
-
     `}
     </style> 
 </React.Fragment>
